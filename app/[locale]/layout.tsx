@@ -22,7 +22,7 @@ async function getMessages(locale: string) {
   }
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
@@ -36,10 +36,12 @@ export default function RootLayout({
     notFound();
   }
 
+  const messages = await getMessages(locale);
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <body suppressHydrationWarning>
-        <NextIntlClientProvider locale={locale} messages={getMessages(locale)}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider 
             attribute="class" 
             defaultTheme="system" 
