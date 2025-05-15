@@ -22,29 +22,24 @@ async function getMessages(locale: string) {
   }
 }
 
-interface RootLayoutProps {
-  children: ReactNode;
-  params: {
-    locale: string;
-  };
-}
-
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params: { locale },
-}: RootLayoutProps) {
+  params,
+}: {
+  children: ReactNode;
+  params: { locale: string };
+}) {
+  const { locale } = params;
+  
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale)) {
     notFound();
   }
 
-  // Load the messages for the locale
-  const messages = await getMessages(locale);
-
   return (
     <html lang={locale} suppressHydrationWarning>
       <body suppressHydrationWarning>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={getMessages(locale)}>
           <ThemeProvider 
             attribute="class" 
             defaultTheme="system" 
