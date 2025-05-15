@@ -22,12 +22,12 @@ async function getMessages(locale: string) {
   }
 }
 
-type RootLayoutProps = {
+interface RootLayoutProps {
   children: ReactNode;
   params: {
     locale: string;
   };
-};
+}
 
 export default async function RootLayout({
   children,
@@ -42,8 +42,8 @@ export default async function RootLayout({
   const messages = await getMessages(locale);
 
   return (
-    <html lang={locale}>
-      <body className="suppress-hydration-warning">
+    <html lang={locale} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider 
             attribute="class" 
