@@ -1,18 +1,18 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { notFound } from "next/navigation"
-import { NextIntlClientProvider } from "next-intl"
-import { ThemeProvider } from "@/components/theme-provider"
-import "../globals.css"
+import { PropsWithChildren } from 'react';
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { NextIntlClientProvider } from 'next-intl';
+import { ThemeProvider } from '@/components/theme-provider';
+import '../globals.css';
 
 export const metadata: Metadata = {
-  title: "Nova - Web Design & Development",
-  description: "Creating beautiful, functional websites that help businesses succeed online.",
-  generator: "v0.dev",
-}
+  title: 'Nova - Web Design & Development',
+  description: 'Creating beautiful, functional websites that help businesses succeed online.',
+  generator: 'v0.dev',
+};
 
 // Define the locales we support
-const locales = ["en", "es"]
+const locales = ['en', 'es'];
 
 async function getMessages(locale: string) {
   try {
@@ -22,14 +22,13 @@ async function getMessages(locale: string) {
   }
 }
 
-type LocaleLayoutProps = {
-  children: React.ReactNode;
+type LocaleLayoutProps = PropsWithChildren<{
   params: { locale: string };
-}
+}>;
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params: { locale },
 }: LocaleLayoutProps) {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale)) {

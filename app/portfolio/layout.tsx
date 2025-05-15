@@ -1,13 +1,9 @@
-import { ReactNode } from 'react';
+import { PropsWithChildren } from 'react';
 
-export default function PortfolioLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function PortfolioLayout({ children }: PropsWithChildren) {
   return (
-    <div className="flex min-h-screen flex-col">
+    <section className="flex min-h-screen flex-col">
       {children}
-    </div>
+    </section>
   );
 } 
