@@ -1,4 +1,4 @@
-import { PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
@@ -22,14 +22,17 @@ async function getMessages(locale: string) {
   }
 }
 
-type LocaleLayoutProps = PropsWithChildren<{
-  params: { locale: string };
-}>;
+type RootLayoutProps = {
+  children: ReactNode;
+  params: {
+    locale: string;
+  };
+};
 
-export default async function LocaleLayout({
+export default async function RootLayout({
   children,
   params: { locale },
-}: LocaleLayoutProps) {
+}: RootLayoutProps) {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale)) {
     notFound();
