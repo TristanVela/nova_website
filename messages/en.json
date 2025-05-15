@@ -121,5 +121,14 @@
       "terms": "Terms of Service",
       "cookies": "Cookie Policy"
     }
+  },
+  "Index": {
+    "title": "Welcome to Our Website",
+    "description": "Modern SaaS Landing Page"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
   }
 }

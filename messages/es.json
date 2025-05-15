@@ -121,5 +121,14 @@
       "terms": "Términos de Servicio",
       "cookies": "Política de Cookies"
     }
+  },
+  "Index": {
+    "title": "Bienvenido a Nuestro Sitio Web",
+    "description": "Página de Aterrizaje SaaS Moderna"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
   }
 }

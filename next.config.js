@@ -1,11 +1,10 @@
-const withNextIntl = require('next-intl/plugin')('./i18n/request.ts');
+const withNextIntl = require('next-intl/plugin')();
 
 /** @type {import('next').NextConfig} */
-const config = {
-  reactStrictMode: true,
+const nextConfig = {
   images: {
-    domains: ['images.unsplash.com'],
-  },
+    unoptimized: true,
+  }
 };
 
-module.exports = withNextIntl(config);
+module.exports = withNextIntl(nextConfig);
