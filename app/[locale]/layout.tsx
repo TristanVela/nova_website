@@ -14,23 +14,28 @@ export const metadata: Metadata = {
 // Define the locales we support
 const locales = ["en", "es"]
 
+async function getMessages(locale: string) {
+  try {
+    return (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
+}
+
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params: { locale }
 }: {
-  children: React.ReactNode
-  params: { locale: string }
+  children: React.ReactNode;
+  params: { locale: string };
 }) {
   // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale)) notFound()
+  if (!locales.includes(locale)) {
+    notFound();
+  }
 
   // Load the messages for the locale
-  let messages
-  try {
-    messages = (await import(`../../messages/${locale}.json`)).default
-  } catch (error) {
-    notFound()
-  }
+  const messages = await getMessages(locale);
 
   return (
     <html lang={locale} suppressHydrationWarning>
