@@ -1,0 +1,125 @@
+{
+  "header": {
+    "features": "Características",
+    "portfolio": "Portafolio",
+    "aboutUs": "Sobre Nosotros",
+    "contact": "Contacto",
+    "contactUs": "Contáctanos"
+  },
+  "hero": {
+    "title": "Eleva tu Presencia en Línea con Nova",
+    "description": "Creamos sitios web impresionantes y de alto rendimiento que ayudan a tu negocio a destacarse y convertir visitantes en clientes.",
+    "scheduleConsultation": "Programar una Consulta",
+    "viewWork": "Ver Nuestro Trabajo"
+  },
+  "features": {
+    "title": "Por Qué Elegir Nova",
+    "description": "Combinamos tecnología de vanguardia con diseño impresionante para entregar sitios web que funcionan.",
+    "customDesign": {
+      "title": "Diseño Personalizado",
+      "description": "Sitios web a medida diseñados para coincidir con la identidad de tu marca y los objetivos de tu negocio."
+    },
+    "performance": {
+      "title": "Enfocado en Rendimiento",
+      "description": "Sitios web ultrarrápidos optimizados para velocidad, SEO y conversión."
+    },
+    "security": {
+      "title": "Seguro y Confiable",
+      "description": "Construido con la seguridad en mente, asegurando que tu sitio web y datos estén protegidos."
+    },
+    "support": {
+      "title": "Soporte Completo",
+      "description": "Mantenimiento y soporte continuo para mantener tu sitio web funcionando sin problemas."
+    }
+  },
+  "portfolio": {
+    "title": "Nuestras Plantillas de Sitios Web",
+    "description": "Explora nuestras plantillas prediseñadas que pueden personalizarse para tu negocio.",
+    "landingPage": {
+      "title": "Página de Aterrizaje",
+      "subtitle": "Perfecto para lanzamientos de productos",
+      "description": "Una página de aterrizaje limpia y moderna diseñada para convertir visitantes en clientes.",
+      "viewTemplate": "Ver Plantilla"
+    },
+    "portfolioTemplate": {
+      "title": "Portafolio",
+      "subtitle": "Muestra tu trabajo",
+      "description": "Una plantilla de portafolio diseñada para destacar tus proyectos y logros.",
+      "viewTemplate": "Ver Plantilla"
+    },
+    "ecommerce": {
+      "title": "Comercio Electrónico",
+      "subtitle": "Vende productos en línea",
+      "description": "Una solución completa de comercio electrónico con listados de productos, carrito y pago.",
+      "viewTemplate": "Ver Plantilla"
+    }
+  },
+  "about": {
+    "title": "Somos un Nuevo Estudio de Diseño",
+    "description": "Fundado con pasión por crear sitios web hermosos y funcionales que generen impacto.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description1": "En Nova, creemos que cada negocio merece una presencia en línea impresionante. Como estudio de diseño recién establecido, nos enfocamos en construir relaciones sólidas con nuestros clientes a través de un servicio personalizado y un diseño excepcional.",
+      "description2": "No somos solo otra agencia de diseño web. Somos tus socios creativos, dedicados a entender tus necesidades únicas y crear experiencias digitales que realmente representen tu marca y conecten con tu audiencia."
+    },
+    "whyChooseUs": {
+      "title": "¿Por Qué Elegirnos?",
+      "reason1": "Atención personalizada a cada proyecto",
+      "reason2": "Enfoque de diseño fresco e innovador",
+      "reason3": "Comunicación directa con nuestros diseñadores",
+      "reason4": "Compromiso con tu éxito a largo plazo"
+    }
+  },
+  "contact": {
+    "title": "Hablemos de Tu Proyecto",
+    "description": "Estamos emocionados de escuchar sobre tus ideas y cómo podemos ayudar a hacerlas realidad.",
+    "contactInfo": {
+      "title": "Información de Contacto",
+      "description": "Comunícate con nosotros directamente o completa el formulario para programar una consulta.",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico",
+      "location": "Ubicación"
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "namePlaceholder": "Juan Pérez",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "subjectPlaceholder": "Consulta de Proyecto",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "sendMessage": "Enviar Mensaje"
+    },
+    "scheduleCta": {
+      "text": "¿Prefieres programar una llamada?",
+      "button": "Programar una Consulta"
+    }
+  },
+  "footer": {
+    "description": "Creando sitios web hermosos y funcionales que ayudan a los negocios a tener éxito en línea.",
+    "services": {
+      "title": "Servicios",
+      "webDesign": "Diseño Web",
+      "webDevelopment": "Desarrollo Web",
+      "ecommerce": "Comercio Electrónico",
+      "seoMarketing": "SEO y Marketing"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nosotros",
+      "portfolio": "Portafolio",
+      "careers": "Carreras",
+      "contact": "Contacto"
+    },
+    "connect": {
+      "title": "Conectar"
+    },
+    "copyright": "© {year} Nova Diseño Web. Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies"
+    }
+  }
+}

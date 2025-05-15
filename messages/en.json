@@ -1,0 +1,125 @@
+{
+  "header": {
+    "features": "Features",
+    "portfolio": "Portfolio",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "title": "Elevate Your Online Presence with Nova",
+    "description": "We create stunning, high-performance websites that help your business stand out and convert visitors into customers.",
+    "scheduleConsultation": "Schedule a Consultation",
+    "viewWork": "View Our Work"
+  },
+  "features": {
+    "title": "Why Choose Nova",
+    "description": "We combine cutting-edge technology with stunning design to deliver websites that perform.",
+    "customDesign": {
+      "title": "Custom Design",
+      "description": "Tailored websites designed to match your brand identity and business goals."
+    },
+    "performance": {
+      "title": "Performance Focused",
+      "description": "Lightning-fast websites optimized for speed, SEO, and conversion."
+    },
+    "security": {
+      "title": "Secure & Reliable",
+      "description": "Built with security in mind, ensuring your website and data are protected."
+    },
+    "support": {
+      "title": "Full Support",
+      "description": "Ongoing maintenance and support to keep your website running smoothly."
+    }
+  },
+  "portfolio": {
+    "title": "Our Website Templates",
+    "description": "Explore our pre-designed templates that can be customized for your business.",
+    "landingPage": {
+      "title": "Landing Page",
+      "subtitle": "Perfect for product launches",
+      "description": "A clean, modern landing page designed to convert visitors into customers.",
+      "viewTemplate": "View Template"
+    },
+    "portfolioTemplate": {
+      "title": "Portfolio",
+      "subtitle": "Showcase your work",
+      "description": "A portfolio template designed to highlight your projects and achievements.",
+      "viewTemplate": "View Template"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "subtitle": "Sell products online",
+      "description": "A complete e-commerce solution with product listings, cart, and checkout.",
+      "viewTemplate": "View Template"
+    }
+  },
+  "about": {
+    "title": "We're a New Design Studio",
+    "description": "Founded with a passion for creating beautiful, functional websites that make an impact.",
+    "mission": {
+      "title": "Our Mission",
+      "description1": "At Nova, we believe that every business deserves a stunning online presence. As a newly established design studio, we're focused on building strong relationships with our clients through personalized service and exceptional design.",
+      "description2": "We're not just another web design agency. We're your creative partners, dedicated to understanding your unique needs and crafting digital experiences that truly represent your brand and connect with your audience."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "reason1": "Personalized attention to every project",
+      "reason2": "Fresh, innovative design approach",
+      "reason3": "Direct communication with our designers",
+      "reason4": "Commitment to your long-term success"
+    }
+  },
+  "contact": {
+    "title": "Let's Discuss Your Project",
+    "description": "We're excited to hear about your ideas and how we can help bring them to life.",
+    "contactInfo": {
+      "title": "Contact Information",
+      "description": "Reach out to us directly or fill out the form to schedule a consultation.",
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "subjectPlaceholder": "Project Inquiry",
+      "messagePlaceholder": "Tell us about your project...",
+      "sendMessage": "Send Message"
+    },
+    "scheduleCta": {
+      "text": "Prefer to schedule a call?",
+      "button": "Schedule a Consultation"
+    }
+  },
+  "footer": {
+    "description": "Creating beautiful, functional websites that help businesses succeed online.",
+    "services": {
+      "title": "Services",
+      "webDesign": "Website Design",
+      "webDevelopment": "Web Development",
+      "ecommerce": "E-Commerce",
+      "seoMarketing": "SEO & Marketing"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "connect": {
+      "title": "Connect"
+    },
+    "copyright": "© {year} Nova Web Design. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  }
+}
