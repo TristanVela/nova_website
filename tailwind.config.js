@@ -2,11 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
-    "*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
   ],
   theme: {
     container: {
@@ -51,7 +50,6 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // New color palette
         teal: {
           50: "#E6FFFA",
           100: "#B2F5EA",
@@ -65,16 +63,16 @@ module.exports = {
           900: "#1D4044",
         },
         mint: {
-          50: "#F0FFF4",
-          100: "#C6F6D5",
-          200: "#9AE6B4",
-          300: "#68D391",
-          400: "#48BB78",
-          500: "#38A169",
-          600: "#2F855A",
-          700: "#276749",
-          800: "#22543D",
-          900: "#1C4532",
+          50: "#F0FDF4",
+          100: "#DCFCE7",
+          200: "#BBF7D0",
+          300: "#86EFAC",
+          400: "#4ADE80",
+          500: "#22C55E",
+          600: "#16A34A",
+          700: "#15803D",
+          800: "#166534",
+          900: "#14532D",
         },
         sky: {
           50: "#E6F6FF",
@@ -112,12 +110,12 @@ module.exports = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: 0 },
+          from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: 0 },
+          to: { height: "0" },
         },
       },
       animation: {
@@ -126,5 +124,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [],
 }
